@@ -163,7 +163,7 @@ a {
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    
+
 }
 
 .cause .begin {
@@ -173,4 +173,13 @@ a {
     text-align: center;
     text-transform: uppercase;
     margin-top: 38px;
+}
+
+.reasons_descr .subtitle {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    
+   
+    
 }

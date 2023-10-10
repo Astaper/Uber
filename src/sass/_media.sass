@@ -73,6 +73,19 @@
         &_descr
             width: 300px
             margin-top: 20px
+    .footer
+        &_wrapper
+            flex-wrap: wrap
+        &_wrapper > div
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-bottom: 20px
+            &:nth-child(1)
+                width: 100%
+            &:nth-child(3)
+                width: 100%
+                justify-content: center
 
 @media (max-width: 767px)
     .menu
@@ -181,6 +194,8 @@
             height: 22px
             font-size: 9px
             margin-top: 6px
+        &_of
+            display: none
             &:hover
                 background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
     .promo
@@ -197,6 +212,7 @@
             margin-top: 33px
             padding: 0 10px
             line-height: 30px
+
         &_btn
             width: 210px
             height: 50px
@@ -213,6 +229,7 @@
         &_link
             display: block
     .hamburger
+        top: 17px
         &_active
             span
                 &:nth-child(1)
@@ -318,5 +335,3 @@
                     margin: 0 7px
             &_lang
                 margin-top: 10px
-      
-            
